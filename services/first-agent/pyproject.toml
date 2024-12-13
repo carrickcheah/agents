@@ -1,0 +1,11 @@
+[project]
+name = "first-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=1.57.0",
+    "qdrant-client>=1.12.1",
+    "swarm>=0.0.2",
+]
