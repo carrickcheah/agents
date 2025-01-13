@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "langchain-text-splitters>=0.3.2",
     "langchain>=0.3.10",
     "langchain-community>=0.3.10",
     "loguru>=0.7.3",
@@ -12,6 +13,14 @@ dependencies = [
     "openai>=1.57.0",
     "pandas>=2.2.3",
     "pymongo>=4.10.1",
+    "pypdf2>=3.0.1",
     "qdrant-client>=1.12.1",
     "scikit-learn>=1.6.0",
+    "langgraph>=0.2.60",
+    "langchain-openai>=0.2.14",
+    "bs4>=0.0.2",
+    "langchain-qdrant>=0.2.0",
+    "beautifulsoup4>=4.12.3",
+    "langchain-chroma>=0.1.4",
+    "jupyterlab>=4.3.4",
 ]
